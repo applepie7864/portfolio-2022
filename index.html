@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annie Guo</title>
+    <!-- Styles & Fonts -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body onload="loader()">
+     <!-- Loading -->
+    <div id="load">
+      <svg class="loading-flower" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="flower" clip-path="url(#clip0_5_4)">
+        <g id="group">
+        <path class="dot" d="M100.002 86.7715C92.6961 86.7715 86.7719 92.6957 86.7719 100.001C86.7719 107.304 92.6961 113.228 100.002 113.228C107.304 113.228 113.228 107.304 113.228 100.001C113.228 92.6961 107.304 86.7715 100.002 86.7715Z" fill="#3A3B3C"/>
+        <path class="petal1" d="M92.7164 76.5773C93.5172 79.8594 96.4734 82.2992 100.002 82.2992C103.527 82.2992 106.483 79.8594 107.287 76.5773L121.874 28.3742C122.358 26.5324 122.616 24.6055 122.616 22.6172C122.616 10.1238 112.493 0 100.002 0C87.5113 0 77.3848 10.1238 77.3848 22.6172C77.3848 24.6055 77.6457 26.5324 78.1266 28.3742L92.7164 76.5773Z" fill="#FBBEDE"/>
+        <path class="petal5" d="M107.286 123.416C106.483 120.135 103.526 117.701 100.001 117.701C96.473 117.701 93.5168 120.135 92.716 123.416L78.1254 171.628C77.6445 173.467 77.3836 175.394 77.3836 177.385C77.3836 189.873 87.5102 200 100.001 200C112.491 200 122.615 189.873 122.615 177.385C122.615 175.394 122.357 173.467 121.873 171.628L107.286 123.416Z" fill="#FBBEDE"/>
+        <path class="petal8" d="M33.8852 64.8172L78.2871 88.5902C81.1789 90.341 84.9918 89.9805 87.4871 87.4875C89.9801 84.9891 90.3437 81.1789 88.593 78.2875L64.8199 33.8852C63.8605 32.2457 62.682 30.6973 61.2711 29.2895C52.4406 20.4559 38.1227 20.4559 29.2891 29.2895C20.4555 38.1199 20.4555 52.4406 29.2891 61.2711C30.6973 62.6762 32.2457 63.8609 33.8852 64.8172Z" fill="#DA84B1"/>
+        <path class="petal4" d="M166.115 135.18L121.712 111.407C118.824 109.653 115.011 110.02 112.518 112.513C110.02 115.011 109.656 118.821 111.407 121.713L135.183 166.115C136.142 167.757 137.318 169.303 138.728 170.707C147.562 179.541 161.88 179.541 170.71 170.707C179.546 161.88 179.544 147.559 170.71 138.728C169.303 137.321 167.76 136.139 166.115 135.18Z" fill="#DA84B1"/>
+        <path class="petal7" d="M76.5805 107.286C79.8625 106.483 82.2992 103.526 82.2992 100.001C82.2992 96.473 79.8621 93.5168 76.5805 92.7129L28.3742 78.1258C26.5328 77.6422 24.6055 77.384 22.6172 77.384C10.1266 77.384 0 87.5105 0 100.001C0 112.492 10.127 122.616 22.6172 122.616C24.6055 122.616 26.5328 122.355 28.3742 121.873L76.5805 107.286Z" fill="#FBBEDE"/>
+        <path class="petal3" d="M177.385 77.384C175.394 77.384 173.467 77.6418 171.628 78.1258L123.42 92.7133C120.141 93.5172 117.701 96.4734 117.701 100.002C117.701 103.527 120.141 106.483 123.42 107.287L171.628 121.874C173.467 122.355 175.394 122.616 177.385 122.616C189.876 122.616 200 112.493 200 100.002C200 87.5078 189.876 77.384 177.385 77.384Z" fill="#FBBEDE"/>
+        <path class="petal6" d="M87.4871 112.513C84.9914 110.02 81.1785 109.653 78.2871 111.407L33.8852 135.18C32.2457 136.139 30.6973 137.321 29.2895 138.729C20.4559 147.559 20.4559 161.88 29.2895 170.707C38.123 179.541 52.441 179.541 61.2715 170.707C62.6762 169.303 63.8609 167.757 64.8172 166.115L88.593 121.713C90.3437 118.821 89.9801 115.011 87.4871 112.513Z" fill="#DA84B1"/>
+        <path class="petal2" d="M112.518 87.4816C115.011 89.9801 118.824 90.341 121.712 88.5902L166.115 64.8203C167.76 63.8609 169.303 62.682 170.71 61.2715C179.544 52.441 179.546 38.1203 170.71 29.2898C161.88 20.4562 147.559 20.4562 138.728 29.2898C137.318 30.6977 136.141 32.2461 135.183 33.8855L111.407 78.2875C109.656 81.1789 110.02 84.9887 112.518 87.4816Z" fill="#DA84B1"/>
+        </g>
+        </g>
+        <defs>
+        <clipPath id="clip0_5_4">
+        <rect width="200" height="200" fill="white"/>
+        </clipPath>
+        </defs>
+      </svg>
+    </div>
+    <div id="reveal">
+      <!-- Navigation -->
+      <nav id="nav" class="animate__animated animate__slideInDown animate__delay-4.2s">
+        <a href="#home"><h1 class="nav-name">Annie Guo.</h1></a>
+        <ul class="nav-list">
+          <button class="remove-menu animate__animated">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3a3b3c}</style><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+          </button>
+          <li><a href="#homeId" class="nav-link">Home</a></li>
+          <li><a href="#projectsId" class="nav-link">Projects</a></li>
+          <li><a href="#experienceId" class="nav-link">Experiences</a></li>
+          <li><a href="#abtId" class="nav-link">About</a></li>
+          <li><a href="#contactId" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="menu animate__animated">
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3a3b3c}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </button>
+      </nav>
+      <!-- Sidebar -->
+      <div class="side-bar animate__animated animate__slideInUp animate__delay-4.2s">
+        <a href="assets/resume.pdf" target="_blank" class="resume-side"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3a3b3c}</style><path d="M364.2 83.8c-24.4-24.4-64-24.4-88.4 0l-184 184c-42.1 42.1-42.1 110.3 0 152.4s110.3 42.1 152.4 0l152-152c10.9-10.9 28.7-10.9 39.6 0s10.9 28.7 0 39.6l-152 152c-64 64-167.6 64-231.6 0s-64-167.6 0-231.6l184-184c46.3-46.3 121.3-46.3 167.6 0s46.3 121.3 0 167.6l-176 176c-28.6 28.6-75 28.6-103.6 0s-28.6-75 0-103.6l144-144c10.9-10.9 28.7-10.9 39.6 0s10.9 28.7 0 39.6l-144 144c-6.7 6.7-6.7 17.7 0 24.4s17.7 6.7 24.4 0l176-176c24.4-24.4 24.4-64 0-88.4z"/></svg></a>
+        <a href="https://www.linkedin.com/in/anniewguo/" target=”_blank” class="linkedin-side"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3a3b3c}</style><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+        <div id="sun">🔆</div>
+        <div id="moon">🌙</div>
+        <a href="https://github.com/applepie7864" target=”_blank” class="github-side"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3a3b3c}</style><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+        <a href="https://open.spotify.com/user/5xb1ufphwez97tv2q5yu50eb0" target="_blank" class="spotify-side"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3a3b3c}</style><path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/></svg></a>
+      </div>
+      <div id="blur">
+        <!-- Home -->
+        <section class="home" id="homeId">
+          <div class="home-left animate__animated animate__backInLeft animate__delay-4.5s animate_slow">
+            <div class="name">Annie Guo</div>
+            <div class="title">Software Developer</div>
+            <div class="home-links">
+              <a href="#projectsId"><button class="work">View My Work</button></a>
+              <a href="assets/resume.pdf" target="_blank"><button class="resume">Resume</button></a>
+            </div>
+          </div>
+          <div class="home-right animate__animated animate__rotateIn animate__delay-4.7s">
+            <svg width="400" height="400" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="flower2" clip-path="url(#clip0_5_4)">
+              <g id="group2">
+              <path id="dot2" class="home-dot" d="M100.002 86.7715C92.6961 86.7715 86.7719 92.6957 86.7719 100.001C86.7719 107.304 92.6961 113.228 100.002 113.228C107.304 113.228 113.228 107.304 113.228 100.001C113.228 92.6961 107.304 86.7715 100.002 86.7715Z" fill="#3A3B3C"/>
+              <path id="petal12" class="home-petal" d="M92.7164 76.5773C93.5172 79.8594 96.4734 82.2992 100.002 82.2992C103.527 82.2992 106.483 79.8594 107.287 76.5773L121.874 28.3742C122.358 26.5324 122.616 24.6055 122.616 22.6172C122.616 10.1238 112.493 0 100.002 0C87.5113 0 77.3848 10.1238 77.3848 22.6172C77.3848 24.6055 77.6457 26.5324 78.1266 28.3742L92.7164 76.5773Z" fill="#FBBEDE"/>
+              <path id="petal52" class="home-petal" d="M107.286 123.416C106.483 120.135 103.526 117.701 100.001 117.701C96.473 117.701 93.5168 120.135 92.716 123.416L78.1254 171.628C77.6445 173.467 77.3836 175.394 77.3836 177.385C77.3836 189.873 87.5102 200 100.001 200C112.491 200 122.615 189.873 122.615 177.385C122.615 175.394 122.357 173.467 121.873 171.628L107.286 123.416Z" fill="#FBBEDE"/>
+              <path id="petal82" class="home-petal" d="M33.8852 64.8172L78.2871 88.5902C81.1789 90.341 84.9918 89.9805 87.4871 87.4875C89.9801 84.9891 90.3437 81.1789 88.593 78.2875L64.8199 33.8852C63.8605 32.2457 62.682 30.6973 61.2711 29.2895C52.4406 20.4559 38.1227 20.4559 29.2891 29.2895C20.4555 38.1199 20.4555 52.4406 29.2891 61.2711C30.6973 62.6762 32.2457 63.8609 33.8852 64.8172Z" fill="#DA84B1"/>
+              <path id="petal42" class="home-petal" d="M166.115 135.18L121.712 111.407C118.824 109.653 115.011 110.02 112.518 112.513C110.02 115.011 109.656 118.821 111.407 121.713L135.183 166.115C136.142 167.757 137.318 169.303 138.728 170.707C147.562 179.541 161.88 179.541 170.71 170.707C179.546 161.88 179.544 147.559 170.71 138.728C169.303 137.321 167.76 136.139 166.115 135.18Z" fill="#DA84B1"/>
+              <path id="petal72" class="home-petal" d="M76.5805 107.286C79.8625 106.483 82.2992 103.526 82.2992 100.001C82.2992 96.473 79.8621 93.5168 76.5805 92.7129L28.3742 78.1258C26.5328 77.6422 24.6055 77.384 22.6172 77.384C10.1266 77.384 0 87.5105 0 100.001C0 112.492 10.127 122.616 22.6172 122.616C24.6055 122.616 26.5328 122.355 28.3742 121.873L76.5805 107.286Z" fill="#FBBEDE"/>
+              <path id="petal32" class="home-petal" d="M177.385 77.384C175.394 77.384 173.467 77.6418 171.628 78.1258L123.42 92.7133C120.141 93.5172 117.701 96.4734 117.701 100.002C117.701 103.527 120.141 106.483 123.42 107.287L171.628 121.874C173.467 122.355 175.394 122.616 177.385 122.616C189.876 122.616 200 112.493 200 100.002C200 87.5078 189.876 77.384 177.385 77.384Z" fill="#FBBEDE"/>
+              <path id="petal62" class="home-petal" d="M87.4871 112.513C84.9914 110.02 81.1785 109.653 78.2871 111.407L33.8852 135.18C32.2457 136.139 30.6973 137.321 29.2895 138.729C20.4559 147.559 20.4559 161.88 29.2895 170.707C38.123 179.541 52.441 179.541 61.2715 170.707C62.6762 169.303 63.8609 167.757 64.8172 166.115L88.593 121.713C90.3437 118.821 89.9801 115.011 87.4871 112.513Z" fill="#DA84B1"/>
+              <path id="petal22" class="home-petal" d="M112.518 87.4816C115.011 89.9801 118.824 90.341 121.712 88.5902L166.115 64.8203C167.76 63.8609 169.303 62.682 170.71 61.2715C179.544 52.441 179.546 38.1203 170.71 29.2898C161.88 20.4562 147.559 20.4562 138.728 29.2898C137.318 30.6977 136.141 32.2461 135.183 33.8855L111.407 78.2875C109.656 81.1789 110.02 84.9887 112.518 87.4816Z" fill="#DA84B1"/>
+              </g>
+              </g>
+              <defs>
+              <clipPath id="clip0_5_42">
+              <rect width="200" height="200" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </section>
+        <div id="projectsId"></div>
+        <!-- Projects -->
+        <section class="projects section">
+          <h2 class="subheader scroll">Projects</h2>
+          <div class="projects-container">
+            <!-- iSpy -->
+            <div class="project-container scroll">
+              <div class="project-pic-container">
+                <img src="assets/ispy.jpg" alt="ispy" class="project-pic"/>
+              </div>
+              <div class="project-info-container">
+                <div class="project-title-container">
+                  <h3 class="project-title">iSpy</h3>
+                  <a href="https://github.com/applepie7864/iSpy" target="_blank" class="project-link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3a3b3c}</style><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg></a>
+                </div>
+                <p class="project-details">
+                  A facial recognition system that detects individuals in a database.
+                </p>
+                <p class="tech-stack">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#da84b1}</style><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+                  &nbsp;Python / Jupyter Notebook / OpenCV
+                </p>
+              </div>
+            </div>
+            <!-- UW Connect -->
+            <div class="project-container scroll">
+              <div class="project-pic-container">
+                <img src="assets/uw-connect.png" alt="uw-connect" class="project-pic"/>
+              </div>
+              <div class="project-info-container">
+                <div class="project-title-container">
+                  <h3 class="project-title">UW Connect</h3>
+                  <a href="https://github.com/applepie7864/uw-connect" target="_blank" class="project-link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3a3b3c}</style><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg></a>
+                </div>
+                <p class="project-details">
+                  A social media platform for University of Waterloo students.
+                </p>
+                <p class="tech-stack">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#da84b1}</style><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+                  &nbsp;React / HTML / CSS / JS
+                </p>
+              </div>
+            </div>
+            <!-- 2187 -->
+            <div class="project-container scroll">
+              <div class="project-pic-container">
+                <img src="assets/2187.png" alt="2187" class="project-pic"/>
+              </div>
+              <div class="project-info-container">
+                <div class="project-title-container">
+                  <h3 class="project-title">2187</h3>
+                  <a href="https://applepie7864.github.io/2187/" target="_blank" class="project-link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#3a3b3c}</style><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg></a>
+                </div>
+                <p class="project-details">
+                  A twist to the popular game of 2048 using multiples of 3.
+                </p>
+                <p class="tech-stack">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#da84b1}</style><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+                  &nbsp;HTML / CSS / JS
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="experienceId"></div>
+        </section>
+        <!-- Experience -->
+        <section class="experience section">
+          <h2 class="subheader experience-header scroll">Experiences</h2>
+          <div class="experiences-container">
+            <div class="vl scroll"></div>
+            <div class="experience-list-container">
+              <!-- UWarg -->
+              <div class="experience-container experience3 scroll">
+                <div class="experience-content">
+                  <p class="date">09/2023 - Present</p>
+                  <p class="location">Waterloo, ON</p>
+                  <p class="job-title">Computer Vision Developer</p>
+                  <a href="https://www.uwarg.com/" class="company" target="_blank">UWarg</a>
+                  <div class="job-description-container">
+                    <p class="job-description">Researched and developed landing algorithms as a part of the autonomy subdivision in the University of Waterloo's drone design team.</p>
+                  </div>
+                  <p class="tools">
+                    <b class="pink">Tools:</b>
+                    &nbsp;Python, OpenCV, Jetson, ZeroPilot, MAVLink
+                  </p>
+                </div>
+              </div>
+              <!-- Eon Media -->
+              <div class="experience-container experience2 scroll">
+                <div class="experience-content">
+                  <p class="date">09/2023 - 01/2024</p>
+                  <p class="location">Toronto, ON</p>
+                  <p class="job-title">AI / ML Engineer</p>
+                  <a href="https://eonmedia.ai/" class="company" target="_blank">Eon Media</a>
+                  <div class="job-description-container">
+                    <p class="job-description">Connected a key management system to a web application and setup an AWS EC2 instance to integrate Fairplay DRM and ensure total protection of the company's online assets.</p>
+                  </div>
+                  <div class="job-description-container">
+                    <p class="job-description">Developed an AI model that writes fully automated articles given only video input and RSS text feeds for sports games.</p>
+                  </div>
+                  <p class="tools">
+                    <b class="pink">Tools:</b>
+                    &nbsp;Python, Amazon Web Services, Hashicorp Vault
+                  </p>
+                </div>
+              </div>
+              <!-- CanSkate -->
+              <div class="experience-container experience1 scroll">
+                <div class="experience-content">
+                  <p class="date">01/2016 - 01/2020</p>
+                  <p class="location">Oakville, ON</p>
+                  <p class="job-title">CanSkate Program Assistant</p>
+                  <a href="https://www.skateoakville.ca/" class="company" target="_blank">Skate Oakville</a>
+                  <div class="job-description-container">
+                    <p class="job-description">Taught ice skating fundamentals to beginners as part of a nationwide learn-to-skate program.</p>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div id="abtId"></div>
+        </section>
+        <!-- About -->
+        <section class="about section">
+          <div class="about-container scroll">
+            <img src="assets/portrait.png" alt="self-portrait" class="about-img"/>
+            <div class="biography-container">
+              <h2 class="subheader">About Me</h2>
+              <p class="biography-text"> Hello, World! Welcome to my personal portfolio.</p>
+              <p class="biography-text">
+                My name is Annie and I’m a Computer Science student at the University of Waterloo. 
+                At my institution, you could find me performing with my hiphop team or making contributions to Waterloo's Aerial Robotics Group. 
+                Last Fall, I worked as a Machine Learning Engineer for Eon Media.
+                Currently I am on the lookout for Summer 2024 internships, so feel free to <a href="#contactId" class="contact-me">contact me</a> with any opportunities!
+              </p> 
+              <p class="biography-text">
+                Beyond academic pursuits, I enjoy spending my time with friends and family, going for a run outdoors and discovering new ice cream spots downtown. 
+              </p>
+              <p class="biography-text">Nice meeting you!</p>
+            </div>
+          </div>
+          <div id="contactId"></div>
+        </section>
+        <!-- Contact -->
+        <section class="contact section">
+          <div class="webpage scroll">
+            <div class="webpage-top-bar">
+              <div class="circles">
+                <div class="circle circle1"></div>
+                <div class="circle circle2"></div>
+                <div class="circle circle3"></div>
+              </div>
+              <svg class="three-dots" xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#787878}</style><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></svg>
+            </div>
+            <div class="webpage-content-container">
+              <div class="webpage-left">
+                <h2 class="contact-note">Let's get in touch.</h2>
+                <svg class="contact-flower" width="150" height="150" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g id="flower2" clip-path="url(#clip0_5_4)">
+                  <g id="group2">
+                  <path id="dot2" class="g" d="M100.002 86.7715C92.6961 86.7715 86.7719 92.6957 86.7719 100.001C86.7719 107.304 92.6961 113.228 100.002 113.228C107.304 113.228 113.228 107.304 113.228 100.001C113.228 92.6961 107.304 86.7715 100.002 86.7715Z" fill="#3A3B3C"/>
+                  <path id="petal12" class="g" d="M92.7164 76.5773C93.5172 79.8594 96.4734 82.2992 100.002 82.2992C103.527 82.2992 106.483 79.8594 107.287 76.5773L121.874 28.3742C122.358 26.5324 122.616 24.6055 122.616 22.6172C122.616 10.1238 112.493 0 100.002 0C87.5113 0 77.3848 10.1238 77.3848 22.6172C77.3848 24.6055 77.6457 26.5324 78.1266 28.3742L92.7164 76.5773Z" fill="#FBBEDE"/>
+                  <path id="petal52" class="g" d="M107.286 123.416C106.483 120.135 103.526 117.701 100.001 117.701C96.473 117.701 93.5168 120.135 92.716 123.416L78.1254 171.628C77.6445 173.467 77.3836 175.394 77.3836 177.385C77.3836 189.873 87.5102 200 100.001 200C112.491 200 122.615 189.873 122.615 177.385C122.615 175.394 122.357 173.467 121.873 171.628L107.286 123.416Z" fill="#FBBEDE"/>
+                  <path id="petal82" class="g" d="M33.8852 64.8172L78.2871 88.5902C81.1789 90.341 84.9918 89.9805 87.4871 87.4875C89.9801 84.9891 90.3437 81.1789 88.593 78.2875L64.8199 33.8852C63.8605 32.2457 62.682 30.6973 61.2711 29.2895C52.4406 20.4559 38.1227 20.4559 29.2891 29.2895C20.4555 38.1199 20.4555 52.4406 29.2891 61.2711C30.6973 62.6762 32.2457 63.8609 33.8852 64.8172Z" fill="#DA84B1"/>
+                  <path id="petal42" class="g" d="M166.115 135.18L121.712 111.407C118.824 109.653 115.011 110.02 112.518 112.513C110.02 115.011 109.656 118.821 111.407 121.713L135.183 166.115C136.142 167.757 137.318 169.303 138.728 170.707C147.562 179.541 161.88 179.541 170.71 170.707C179.546 161.88 179.544 147.559 170.71 138.728C169.303 137.321 167.76 136.139 166.115 135.18Z" fill="#DA84B1"/>
+                  <path id="petal72" class="g" d="M76.5805 107.286C79.8625 106.483 82.2992 103.526 82.2992 100.001C82.2992 96.473 79.8621 93.5168 76.5805 92.7129L28.3742 78.1258C26.5328 77.6422 24.6055 77.384 22.6172 77.384C10.1266 77.384 0 87.5105 0 100.001C0 112.492 10.127 122.616 22.6172 122.616C24.6055 122.616 26.5328 122.355 28.3742 121.873L76.5805 107.286Z" fill="#FBBEDE"/>
+                  <path id="petal32" class="g" d="M177.385 77.384C175.394 77.384 173.467 77.6418 171.628 78.1258L123.42 92.7133C120.141 93.5172 117.701 96.4734 117.701 100.002C117.701 103.527 120.141 106.483 123.42 107.287L171.628 121.874C173.467 122.355 175.394 122.616 177.385 122.616C189.876 122.616 200 112.493 200 100.002C200 87.5078 189.876 77.384 177.385 77.384Z" fill="#FBBEDE"/>
+                  <path id="petal62" class="g" d="M87.4871 112.513C84.9914 110.02 81.1785 109.653 78.2871 111.407L33.8852 135.18C32.2457 136.139 30.6973 137.321 29.2895 138.729C20.4559 147.559 20.4559 161.88 29.2895 170.707C38.123 179.541 52.441 179.541 61.2715 170.707C62.6762 169.303 63.8609 167.757 64.8172 166.115L88.593 121.713C90.3437 118.821 89.9801 115.011 87.4871 112.513Z" fill="#DA84B1"/>
+                  <path id="petal22" class="g" d="M112.518 87.4816C115.011 89.9801 118.824 90.341 121.712 88.5902L166.115 64.8203C167.76 63.8609 169.303 62.682 170.71 61.2715C179.544 52.441 179.546 38.1203 170.71 29.2898C161.88 20.4562 147.559 20.4562 138.728 29.2898C137.318 30.6977 136.141 32.2461 135.183 33.8855L111.407 78.2875C109.656 81.1789 110.02 84.9887 112.518 87.4816Z" fill="#DA84B1"/>
+                  </g>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_5_42">
+                  <rect width="200" height="200" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="form">
+                <form id="my-form" action="#contactId">
+                  <input type="text" placeholder="Name" id="name" autocomplete="off">
+                  <input type="email" placeholder="Email" id="email" autocomplete="off">
+                  <input type="text" placeholder="Subject" id="subject" autocomplete="off">
+                  <textarea id="msg" cols="25" rows="10" placeholder="Message"></textarea>
+                  <p></p>
+                  <button id="send" type="submit" form="my-form">Connect!</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+          <p class="copy"><span style="color:#da84b1">&copy;</span> Copyright 2023</p>
+          <p class="credits">
+            Made with 💕 by Annie.
+          </p>
+        </footer>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      const form = document.getElementById("my-form");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("name");
+        const email = document.getElementById("email");
+        const subject = document.getElementById("subject");
+        const msg = document.getElementById("msg");
+
+        if (name.value == "" || email.value == "" || subject.value == "" || msg.value == "") {
+          alert("Error: Please ensure you provide values for all fields.");
+        } else {
+          Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "anniewenqingguo@gmail.com",
+            Password : "28D194A07797FBD055CD02263E53C44ACC52",
+            To : 'anniewenqingguo@gmail.com',
+            From : email.value,
+            Subject : "New Email via Portfolio: " + subject.value + " from " + name.value,
+            Body : msg.value
+          })
+          alert("Thanks for your email!");
+        }
+
+        name.value = "";
+        email.value = "";
+        subject.value = "";
+        msg.value = "";
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+
